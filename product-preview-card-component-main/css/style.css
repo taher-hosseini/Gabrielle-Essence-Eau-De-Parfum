@@ -1,0 +1,30 @@
+:root{
+/* ### Primary */
+
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+
+/* ### Neutral */
+
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Cream);
+}
+.head_title{
+    letter-spacing: 0.2em;
+}
+.my_btn{
+    padding: 0.8rem 0;
+}
+.my_f{
+    font-size: 1.5rem;
+}
+.my_f2{
+    font-size: 2rem;
+}
+.my_btn:hover{
+    background-color: rgba(0, 39, 0,0.7);
+}
